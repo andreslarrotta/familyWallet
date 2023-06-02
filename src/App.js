@@ -1,10 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
-import './Test.scss';
+import './App.scss';
+import Welcome from './containers/Welcome/Welcome';
 
 function App() {
   return (
     <div className="App">
+      <Welcome />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
